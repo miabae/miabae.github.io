@@ -1,0 +1,200 @@
+body {
+  margin: 0;
+  color: #393b44;
+  background-color: #d6e0f0;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+color: #000;
+margin-top: 0;
+font-weight: bolder;
+font-family: 'Sacramento', cursive;
+}
+
+h2 {
+font-family: 'Montserrat', sans-serif;
+color: #000;
+}
+
+h3 {
+font-family: 'Montserrat', sans-serif;
+color: #000;
+font-weight: bolder;
+text-decoration: underline;
+text-align: center;
+}
+
+h4 {
+font-family: 'Montserrat', sans-serif;
+color: #000;
+text-align: center;
+font-size: 1rem;
+}
+
+h5 {
+font-family: 'Montserrat', sans-serif;
+color: #393b44;
+text-align: center;
+font-size: .9rem;
+}
+
+h6 {
+font-family: 'Montserrat', sans-serif;
+color: #07689f;
+text-align: center;
+font-size: .8rem;
+font-weight: bold;
+}
+
+section {
+padding-bottom: 8%;
+}
+
+/* navigation bar */
+.navbar {
+  padding: 0 0;
+  border-bottom: 1px solid #393b44;
+  background-color: #A7CFE8;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.navbar-brand {
+  margin: 0 45px;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 10px 10px;
+}
+
+.nav-link {
+  color: #000;
+  font-size: 1rem;
+}
+
+.nav-link:hover {
+  color: #000;
+  font-weight: bold;
+}
+
+.navbar-hide {
+  pointer-events: none;
+  opacity: 0;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(000,000,000, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(000,000,000);
+}
+
+.container-fluid {
+  padding: 90px 0 0 0;
+}
+
+.top-container {
+  position: absolute;
+  line-height: 8px;
+  text-align: center;
+  left: 0;
+  right: 0;
+  top: 47%;
+}
+
+.mid-container {
+  padding: 0 20%;
+  text-align: justify;
+}
+
+.table {
+  text-align: left;
+}
+
+.bio-img {
+  width: 75px;
+  height: 75px;
+  padding: 8px;
+  margin: 0 45px;
+}
+
+.box {
+  position: relative;
+}
+
+.mid-img {
+  width: 500px;
+  height: 450px;
+}
+
+.proj-img {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  margin: 0 2%;
+}
+
+.cicon {
+  color: #07689f;
+}
+
+.cicon:hover {
+  color: #393b44;
+  text-decoration: none;
+}
+
+.card-header {
+  background-color: #9DB6C9;
+}
+
+.card-body {
+  background-color: #f1f3f8;
+}
+
+.bot-container {
+    background-color: #A7CFE8;
+    font-size: 13px;
+    padding: 15px 0 5px;
+    border-top: 1px solid #393b44;
+}
+
+.icon {
+  color: #393b44;
+  padding: 10px;
+}
+
+.icon:hover {
+  color: #000;
+}
+
+.topb {
+  transition: all .25s ease-in-out;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: inline-flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  margin: 3em;
+  border-radius: 50%;
+  padding: 1em;
+  width: 50px;
+  height: 50px;
+  color: #000;
+  background-color: #A7CFE8;
+}
+
+.topb:hover {
+  color: #07689f;
+  background-color: #d6e0f0;
+}
