@@ -1,2 +1,2 @@
 # miabae.github.io
-my website/portfolio
+A website that includes my background, more information on my education, skills, and projects.
